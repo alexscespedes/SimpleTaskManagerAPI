@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SimpleTaskManagerAPI.Models;
 
-public class Task
+public class TaskItem
 {
     public int Id { get; set; }
 
