@@ -14,7 +14,7 @@ public class TaskItem
 
     [Required]
     [DataType(DataType.Date)]
-    [CustomValidation(typeof(Task), nameof(validateDueDate))]
+    [CustomValidation(typeof(TaskItem), nameof(validateDueDate))]
     public DateTime DueDate { get; set; }
     public bool IsCompleted { get; set; } = false;
 
